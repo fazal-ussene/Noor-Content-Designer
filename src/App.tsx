@@ -652,13 +652,15 @@ export default function App() {
       </div>
 
       {/* Status Bar Footer */}
-      <footer className="mt-12 h-12 bg-[#5a5a40] text-white/80 px-4 sm:px-8 flex items-center justify-between text-[10px] uppercase tracking-widest rounded-t-xl select-none max-w-7xl mx-auto shadow-sm">
-        <div className="flex gap-4 sm:gap-6">
-          <span>Developed by: <span className="text-white font-bold">Fazal Ussene</span></span>
-          <span className="hidden sm:inline">Format: <span className="text-white font-bold">JPG / 300DPI</span></span>
+      <footer className="mt-12 py-3 sm:py-0 sm:h-12 bg-[#5a5a40] text-white/80 px-4 sm:px-8 grid grid-cols-1 sm:grid-cols-3 gap-2 sm:gap-0 items-center text-[10px] uppercase tracking-widest rounded-t-xl select-none max-w-7xl mx-auto shadow-sm">
+        <div className="text-center sm:text-left">
+          Developed by: <span className="text-white font-bold">Fazal Ussene</span>
         </div>
-        <div id="footer-copyright-text">
-          © 2026 Islamic Social Media Design • Automated Graphic Engine v3.0
+        <div className="text-center font-bold text-white">
+          Format: <span className="text-white font-bold">JPG / 300DPI</span>
+        </div>
+        <div id="footer-copyright-text" className="hidden sm:block text-right">
+          © 2026 NOOR CONTENT DESIGNER • V1.0
         </div>
       </footer>
     </div>
