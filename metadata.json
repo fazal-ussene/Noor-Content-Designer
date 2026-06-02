@@ -1,0 +1,6 @@
+{
+  "name": "Noor Content Designer",
+  "description": "An automated system for creating beautifully composed Islamic social media graphic posts for Islamic Dawah.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
